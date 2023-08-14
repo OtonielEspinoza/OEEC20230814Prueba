@@ -6,18 +6,13 @@ package Prueba.Entidaddenegocio;
 
 import java.time.LocalDate;
 
-/**
- *
- * @author H
- */
 public class Tarea {
-    
-      private String idTarea;
+    private String idTarea;
     private String titulo;
     private String descripcion;
     private LocalDate fechafinalizacion;
     private boolean completada;
-      private int top_aux;
+    private int top_aux;
 
     public String getIdTarea() {
         return idTarea;
@@ -66,5 +61,4 @@ public class Tarea {
     public void setTop_aux(int top_aux) {
         this.top_aux = top_aux;
     }
-    
 }
