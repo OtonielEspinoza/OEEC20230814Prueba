@@ -16,6 +16,8 @@ public class ComunDB {
                 + "user="
                 + "password="
                 + "loginTimeout=30;encrypt=false;trustServerCertificate=false";
+        
+       
 
         public static Connection obtenerConexion() throws SQLException {
 
